@@ -13,7 +13,7 @@
 
 Склонировать репозиторий по ссылке:
 ```
-git clone [https://github.com/Anzxclord-sys/bank_widget.git](https://github.com/Anzxclord-sys/bank_widget.git)
+git clone https://github.com/Anzxclord-sys/bank_widget.git
 ```
 
 Установить зависимости через poetry:
@@ -38,3 +38,4 @@ print(filter_by_state(data))
 # Сортировка операций по дате (от новых к старым)
 print(sort_by_date(data))
 ```
+Проект находится в разработке.
