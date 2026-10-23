@@ -1,5 +1,6 @@
 from src.masks import get_mask_card_number, get_mask_account
 
+
 def mask_account_card(info: str) -> str:
     """Маскирует номер карты или счета."""
     parts = info.split()
@@ -18,5 +19,4 @@ def get_date(date_str: str) -> str:
     year, month, day = date_part.split("-")
     return f"{day}.{month}.{year}"
 
-
-    #финальная проверка кода
+    # финальная проверка кода
